@@ -1,44 +1,59 @@
-import "./App.css";
-import React, { useState } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+import React, { Component } from 'react';
+import ReactGA from 'react-ga';
+import $ from 'jquery';
+import './App.css';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import Resume from './Components/Resume';
+import Contact from './Components/Contact';
+import Portfolio from './Components/Portfolio';
 
-function App() {
-	const [currentTab, setCurrentTab] = useState("about");
+class App extends Component {
 
-	// This function checks to see which tab is selected and then generates the appropriate tab.
-	const renderTab = () => {
-		switch (currentTab) {
-			case "about":
-				return <About />;
-			case "portfolio":
-				return <Portfolio />;
-			case "contact":
-				return <Contact />;
-			case "resume":
-				return <Resume />;
-			default:
-				return null;
-		}
-	};
+  constructor(props){
+    super(props);
+    this.state = {
+      foo: 'bar',
+      resumeData: {}
+    };
 
-	return (
-		<div>
-			<div className="mobile-header">
-				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
-			</div>
-			<div>
-				<main>{renderTab()}</main>
-			</div>
-			<div>
-				<Footer></Footer>
-			</div>
-		</div>
-	);
+    ReactGA.initialize('UA-110570651-1');
+    ReactGA.pageview(window.location.pathname);
+
+  }
+
+  getResumeData(){
+    $.ajax({
+      url:'./resumeData.json',
+      dataType:'json',
+      cache: false,
+      success: function(data){
+        this.setState({resumeData: data});
+      }.bind(this),
+      error: function(xhr, status, err){
+        console.log(err);
+        alert(err);
+      }
+    });
+  }
+
+  componentDidMount(){
+    this.getResumeData();
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Contact data={this.state.resumeData.main} repos={this.state.resumeData.portfolio}/>
+        <Footer data={this.state.resumeData.main}/>
+      </div>
+    );
+  }
 }
 
 export default App;
