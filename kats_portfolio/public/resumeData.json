@@ -1,80 +1,84 @@
 {
     "main": {
-      "name":"Thomas Tutchings",
-      "description":"Software Developer / Designer / Lifetime Student",
+      "name":"Katrina Pei Wen Shih",
+      "description":"Full Stack Developer / Aspiring Student / Dedicated Coder",
       "image":"profilepic.jpg",
-      "bio":"My name is Thomas Tutchings and I am a recent IT Bachelor's degree graduate and current UNC Coding Bootcamp Student. Based in Raleigh, NC, I am a hard-working, detail-oriented Software Developer passionate about learning, researching, and writing code and I relish the opportunity to take my programming skills and experience to a company where I can continue to learn and grow as a professional software developer.",
+      "bio":"My name is Katrina Shih and I obtained Bachelor's degree from FIT this year May 2022. I am currently enrolled in Columbia University Coding Bootcamp. I am based in Queens, NY. Been with Tarte Cosmetics dev team for 3 months now, I am hoping to refine my skills in coding and grow with the company. I am passionate about learning, researching, and writing code. I am hoping to get to learn more about the tech industry, and opening doors to more opportunities coming for me. ",
       "contactmessage":"Feel free to contact me via email, this form, or LinkedIn",
       "email": "katrina112298@gmail.com",
-      "phone": "540-755-6656",
-      "github":"https://github.com/tutchings",
-      "project":"https://www.linkedin.com/in/thomas-tutchings-2340871b7/",
+      "phone": "347-506-9098",
+      "github":"https://github.com/kattheswagger1122",
+      "project":"https://www.linkedin.com/in/katrina-shih-9a4184198/",
       "address":{
         "street":"(Your Street)",
-        "city":"Raleigh",
-        "state":"NC",
+        "city":"Fresh Meadows",
+        "state":"NY",
         "zip": "(Your Zip/Postal Code)"
       },
-      "website": "https://github.com/tutchings",
-      "resumedownload":"https://drive.google.com/file/d/1z-EfydB5ZVRvnLHXoPAg1dbRDvHO-gSV/view?usp=sharing",
+      "website": "https://github.com/kattheswagger1122",
+      "resumedownload":"https://drive.google.com/file/d/1WQWCunRf4-qjrePy3X1d9ptJjxqxxqA6/view?usp=sharing",
       "social":[
         {
           "name":"github",
-          "url":"https://github.com/tutchings",
+          "url":"https://github.com/kattheswagger1122",
           "className":"fa fa-github"
         },
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/thomas-tutchings-2340871b7/",
+          "url":"https://www.linkedin.com/in/katrina-shih-9a4184198/",
           "className":"fa fa-linkedin"
         }
       ]
     },
     "resume":{
-      "skillmessage":"* Each skill level is weighted in correlation to the remaining skills",
       "education":[
         {
-          "school":"University of North Carolina - Chapel Hill",
+          "school":"Columbia University",
           "gpa": "A+ Academic Average",
           "degree":"Coding Bootcamp Certificate",
-          "graduated":"February 2021",
+          "graduated":"September 2022",
           "description":"Coursework Included: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, Handlebars, React.js, Node.js, Database Theory, MongoDB, MySQL, Git"
         },
         {
-          "school":"University of Massachusetts Lowell",
-          "gpa": "3.977 GPA",
-          "degree":"Bachelor's of Science in Information Technology (minor in business)",
-          "graduated":"August 2019",
-          "description":"Coursework Included: Front-End Web Development (HTML, CSS, JavaScript), Back-End Web Development (Perl, Python, PHP), C-Programming, Database Management Systems (SQL, ERDplus, Teradata), Adobe Creative Suite, Microsoft Office Applications, Business Minor (Management, Finance, Accounting, Marketing, Economics)"
+          "school":"Fashion Institute of Technology",
+          "gpa": "Bachelor 4.0 GPA Overall 3.78 GPA",
+          "degree":"Bachelor's of Science",
+          "graduated":"May 2022",
+          "description":"(Production Management Major) relevant quantittive course works includes: Quantitative Methods, Statistics, Mathematical Modeling for Business Applications, Information Systems"
         }
       ],
       "work":[
         {
-          "company":"Dean Dorton",
-          "title":"Software Services Specialist (Software Developer)",
-          "years":"November 2020 - Present",
-          "description":"Write scrips to build custom accounting dashboards for clients (javasript) and build software integrations between accounting application platforms (python)"
+          "company":"Tarte Cosmetics",
+          "title":"Web Digital Development Intern",
+          "years":"July 2022 - Present",
+          "description":"Assist web development team in preparing assets, web content, and analytics tasks. Hands-on coding on a live digital storefront utilizing HTML, CSS, and basic JavaScript. Work on daily operations and updates within the Salesforce Commerce Cloud platform. Familiarity with the latest web standards, ADA compliance, and optimization techniques. Collaborate with Design and Digital Marketing team on marketing assets and ideas for. Research web trends and gather best practice data on digital experiences. Review tickets with business requirements and apply critical thinking."
         },
         {
-          "company":"365 Sports",
-          "title":"Accounting / Sports Marketing Data Analyst",
-          "years":"December 2019 - May 2020 (Laid-off as a result of Covid-19)",
-          "description":"Invoicing clients, building and sending receipts, scheduling/mailing payment plans and reminders, marketing tasks (mass mailings, mass text messaging, design/editing), and researching high school sports statistics, data, and school information."
+          "company":"Connecticut-Asian Cultural Center",
+          "title":"Web Maintenance (Freelance)",
+          "years":"April 2022 - Present",
+          "description":"Update latest content and information across the website, upload photos, articles, and other server site maintenance. Maintain CMS and debug possible errors across the web server."
         }
       ],
       "skills":[
         {
-          "name":"HTML / CSS / Bootstrap",
-          "level":"90%"
+          "name":"HTML / CSS",
+          "level":"95%"
         },
+
         {
-          "name":"ReactJS",
-          "level":"35%"
-        },
+            "name":"ReactJS",
+            "level":"35%"
+          },
         {
           "name":"MongoDB / Mongoose",
-          "level":"45%"
+          "level":"50%"
         },
+        {
+            "name":"GraphQL",
+            "level":"30%"
+          },
         {
           "name":"Terminal / Git",
           "level":"80%"
@@ -96,88 +100,92 @@
           "level":"75%"
         },
         {
-          "name":"C-Programming",
-          "level":"30%"
+          "name":"Python",
+          "level":"20%"
         },
         {
-          "name":"Amazon Web Services / Serverless",
-          "level":"25%"
+          "name":"Amazon Web Services / Firebase/ Heroku",
+          "level":"75%"
+        },
+        {
+            "name":"Google Analytics / Google Tag Manager",
+            "level":"45%"
         }
       ]
     },
     "portfolio":{
       "projects": [
         {
-          "title":"Disney Platformer",
-          "shorttitle": "Disney Platformer",
-          "category":"Personal Project",
-          "image":"disneyPlatformer.PNG",
-          "info":"HTML, CSS, JS, Bootstrap, Adobe Photoshop",
-          "url":"https://tutchings.github.io/disneyPlatformer/",
-          "repo":"https://github.com/tutchings/disneyPlatformer"
+          "title":"Movie Generator",
+          "shorttitle": "Interactive Front-End Project",
+          "category":"Group Project",
+          "image":"moviegenerator.png",
+          "info":"HTML, CSS, JS, PureCSS.io(UI Framework), Giphy and imdb API",
+          "url":"https://github.com/sweetfreak/media-generator",
+          "repo":"https://sweetfreak.github.io/media-generator/index.html"
         },
         {
-          "title":"Wake Forest University ASGM Project",
-          "shorttitle": "WFU ASGM Project",
-          "category":"Academic (group) Project",
-          "image":"wfu-asgm-project.PNG",
-          "info":"Amazon Web Services (AWS), Serverless, Express, Vuejs, Nodejs, Axios, MongoDB, Mongoose, HTML, CSS, JS, jQuery",
-          "url":"https://asgmwfu.com/index.html",
-          "repo":"https://github.com/tutchings/wfu-asgm-awsServerlessLambda"
+          "title":"Databae: Dating Chat for Developers",
+          "shorttitle": "Interactive Full-Stakc Project",
+          "category":"Group Project",
+          "image":"databae.png",
+          "info":"Heroku, Express, Nodejs, HTML, CSS, JS, Handlebars, Socket.io",
+          "url":"https://warm-castle-61727.herokuapp.com/",
+          "repo":"https://github.com/Bprendaj/databae"
         },
         {
-          "title":"Exploring National Parks During Covid: Live Search",
-          "shorttitle": "NPS Covid: Live Search",
-          "category":"Academic (group) Project",
+          "title":"Woman's World: Magazine App For STEM Woman",
+          "shorttitle": "Interactive MERN SPA Project",
+          "category":"Group Project",
           "image":"nps.png",
-          "info":"HTML, CSS, JS, jQuery, Materialize, GoogleMaps and Geocoding APIs, NPS API, Covid Tracking Project API, Bing News API, MapQuest API",
-          "url":"https://tutchings.github.io/exploringParksDuringCovidLiveSearch/",
-          "repo":"https://github.com/tutchings/exploringParksDuringCovidLiveSearch"
+          "info":"HTML, CSS, JS, jQuery, Amazon Web Service(AWS), Express, Nodejs, HTML, CSS, JS, Handlebars, socket.io, GoogleMaps, Spotify, Yelp APIs,",
+          "url":"#",
+          "repo":"https://github.com/adryq/WomansWorld"
         },
         {
-          "title":"React User Directory",
-          "shorttitle": "React User Directory",
-          "category":"Academic Project",
-          "image":"userDirectoryImg1.PNG",
-          "info":"React, Nodejs, Axios, Random User API, HTML, CSS, JS, Bootstrap",
-          "url":"https://tutchings.github.io/19-user-directory/",
-          "repo":"https://github.com/tutchings/19-user-directory"
+          "title":"Quiz About Me (Kat)",
+          "shorttitle": "Kat Quiz",
+          "category":"Personal Fun",
+          "image":"katquiz.png",
+          "info":"HTML, CSS, JS",
+          "url":"https://kattheswagger1122.github.io/kats-quiz/",
+          "repo":"https://github.com/kattheswagger1122/kats-quiz"
         },
         {
-          "title":"Budget Tracker PWA",
+          "title":"PWA Budget Tracker",
           "shorttitle": "Budget Tracker",
-          "category":"Academic Project",
-          "image":"budgetTracker1.PNG",
+          "category":"Module Assignment",
+          "image":"budget.png",
           "info":"MongoDB, Mongoose, webpack, service-worker, Express, Nodejs",
           "url":"https://budget-tracker-18-pwa.herokuapp.com",
-          "repo":"https://github.com/tutchings/18_BudgetTrackerPWA"
+          "repo":"#"
         },
         {
-          "title":"Burger Tracker",
-          "shorttitle": "Burger Tracker",
-          "category":"Academic Project",
-          "image":"burgerTracker.PNG",
-          "info":"MySql, Express, Nodejs, Handlebars, HTML, CSS, JS, Bootstrap, jQuery",
-          "url":"https://mysql-mvc-burger-shop.herokuapp.com/",
-          "repo":"https://github.com/tutchings/13_burgerTracker"
-        },
-        {
-          "title":"Weather Dashboard",
-          "shorttitle": "Weather Dashboard",
-          "category":"Academic Project",
-          "image":"weatherDashboard.png",
-          "info":"HTML, CSS, Bootstrap, JS, jQuery, OpenWeather API, MapQuest API",
-          "url":"https://tutchings.github.io/6_weatherDashboard/",
-          "repo":"https://github.com/tutchings/6_weatherDashboard"
-        },
-        {
-          "title":"BlackJack Game",
-          "shorttitle": "BlackJack",
-          "category":"Personal Project",
-          "image":"blackjack.PNG",
+          "title":"Run Buddy",
+          "shorttitle": "Run Buddy",
+          "category":"Module Assignment",
+          "image":"#",
           "info":"HTML, CSS, JS",
-          "url":"https://tutchings.github.io/blackjack/",
-          "repo":"https://github.com/tutchings/blackjack"
+          "url":"#",
+          "repo":"#"
+        },
+        {
+          "title":"Weather Dashboard By Kat",
+          "shorttitle": "Weather Dashboard",
+          "category":"Module Assignment",
+          "image":"katweather.png",
+          "info":"HTML, CSS, Bootstrap, JS, OpenWeather API, MapQuest API",
+          "url":"https://github.com/kattheswagger1122/WeatherDashboard-byKat",
+          "repo":"https://kattheswagger1122.github.io/WeatherDashboard-byKat/"
+        },
+        {
+          "title":"MVC Tech blog",
+          "shorttitle": "Tech Blog",
+          "category":"Module Assignment",
+          "image":"mvctech.png",
+          "info":"HTML, CSS, JS, Handlebars, ExpressJs",
+          "url":"https://mvc-techblog-bykat.herokuapp.com/",
+          "repo":"https://github.com/kattheswagger1122/mvc-techblog"
         }
       ]
     }
