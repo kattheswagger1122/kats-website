@@ -134,13 +134,13 @@
           "repo":"https://github.com/Bprendaj/databae"
         },
         {
-          "title":"Woman's World: Magazine App For STEM Woman",
-          "shorttitle": "Interactive MERN SPA Project",
+          "title":"Woman's World: e-Mag Food Content",
+          "shorttitle": "Interactive MERN Project",
           "category":"Group Project",
-          "image":"nps.png",
+          "image":"ww.png",
           "info":"HTML, CSS, JS, jQuery, Amazon Web Service(AWS), Express, Nodejs, HTML, CSS, JS, Handlebars, socket.io, GoogleMaps, Spotify, Yelp APIs,",
-          "url":"#",
-          "repo":"https://github.com/adryq/WomansWorld"
+          "url":"https://wwfoodmern.s3.us-east-2.amazonaws.com/index.html",
+          "repo":"https://github.com/katebonner/womans-world"
         },
         {
           "title":"Quiz About Me (Kat)",
@@ -157,17 +157,17 @@
           "category":"Module Assignment",
           "image":"budget.png",
           "info":"MongoDB, Mongoose, webpack, service-worker, Express, Nodejs",
-          "url":"https://budget-tracker-18-pwa.herokuapp.com",
-          "repo":"#"
+          "url":"#",
+          "repo":"https://github.com/kattheswagger1122/pwa-budget-tracker"
         },
         {
-          "title":"Run Buddy",
+          "title":"Run Budd 2.0",
           "shorttitle": "Run Buddy",
           "category":"Module Assignment",
-          "image":"#",
+          "image":"runBuddy2.0.png",
           "info":"HTML, CSS, JS",
-          "url":"#",
-          "repo":"#"
+          "url":"https://kattheswagger1122.github.io/run-buddy2.0/",
+          "repo":"https://github.com/kattheswagger1122/run-buddy2.0/settings/pages"
         },
         {
           "title":"Weather Dashboard By Kat",
